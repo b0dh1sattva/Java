@@ -19,7 +19,9 @@ public class GradeBookTest
         //GradeBook gradeBook2 = new GradeBook( "Algebra", "Timothy" );
 
         gradeBook1.displayMessage();
-        gradeBook1.determineClassAverageSentinel();
+        //gradeBook1.determineClassAverageSentinel();
+        gradeBook1.inputGrades();
+        gradeBook1.displayGradeReport();
         
         // display initial value of each GradeBook object
         //System.out.printf( "The initial value of gradeBook1 is %s\n\n", gradeBook1.getCourseName() );
